@@ -1,0 +1,34 @@
+
+
+.items>.items_text{
+    width: 50%;
+    height: 40px;
+    font-size: larger;
+    background-color: rgb(179, 53, 74);
+    border-radius: 6px;
+    margin: 7px ;
+    display: flex;
+    justify-content: space-between;
+    padding: 11px;
+    align-items: center;
+    margin: 10px auto;
+
+ 
+}
+
+.items>.items_text>.items_button{
+    cursor: pointer;
+    width: 20px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: 0.2s ease-in-out;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.items>.items_text>.items_button:hover{
+    box-shadow: 0 8px 10px 10px rgba(0, 0, 0,0.2);
+}

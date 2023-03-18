@@ -1,0 +1,23 @@
+.input{
+    position: absolute;
+    top: 50px;
+}
+.task{
+    width: 50%;
+    height: calc(100vh - 112px);
+    margin: 0 auto;
+
+}
+
+.task_item{
+    background-color: orangered;
+    height: 30px;
+    margin: 8px;
+    border-radius: 4px;
+    font-size: larger;
+}
+
+.tasks_form{
+
+    margin-top: 25px;
+}
